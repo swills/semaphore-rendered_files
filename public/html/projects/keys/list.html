@@ -1,0 +1,1 @@
+<h3>Keys<button class="btn btn-success btn-xs pull-right" ng-click="add()">Create Key</button></h3><table class="table table-hover"><tbody><tr ng-repeat="key in keys" ng-click="update(key)" style="cursor: pointer;" ng-class="{ danger: key.removed }"><td><code>{{ key.type }}</code>&nbsp; {{ key.name }}</td></tr></tbody></table>
